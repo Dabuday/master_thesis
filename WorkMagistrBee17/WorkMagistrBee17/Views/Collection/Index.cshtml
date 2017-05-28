@@ -1,0 +1,150 @@
+@model IEnumerable<WMB.Data.DataContext.ProductTypeCollection>
+
+@{
+    ViewBag.Title = "Collection";
+}
+
+<head>
+    <title>Збір продуктів</title>
+</head>
+
+<div class="header">
+    <div class="header_slide">
+        <div class="header_bottom_left">
+            @*@await Html.PartialAsync("_Categories", "MyApiary")*@
+            <div class="categories">
+                <h3>Категорії</h3>
+                <ul>
+                    <li><a asp-action="Index" asp-controller="BeeHive">Vyluck</a></li>
+                    <li><a asp-action="Index" asp-controller="Statistics">Statistick</a></li>
+                    <li><a asp-action="Index" asp-controller="Collection">Zbir producty</a></li>
+                    <li><a asp-action="Index" asp-controller="Calendar">Calendar</a></li>
+                    <li><a href="#">...............</a></li>
+                    <li><a href="#">...............</a></li>
+                    <li><a href="#">...............</a></li>
+                    <li><a href="#">......&amp; .....</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_bottom_right">
+            <div class="content_top">
+                <div class="back-links">
+                    <p><a asp-action="Index" asp-controller="MyApiary">Моя пасіка</a>  >>>> <a asp-action="Index" asp-controller="Collection">Збір продукту</a></p>
+                </div>
+                <form asp-action="Index" method="get">
+                    <div class="form-actions no-color">
+                        Find by name: <input type="text" name="SearchString" value="@ViewData["currentFilter"]" />
+                        <input type="submit" value="Search" class="btn btn-default" />
+                    </div>
+                </form>
+                <div class="clear"></div>
+            </div>
+            <div id="toolbar" class="btn-group">
+                <div class="checkbox-inline">
+                    <li><a asp-action="Create">Dodatu zibranuy tovar</a></li>
+                </div>
+                <button id="btninfo" class="btn btn-default" type="button"><i class="glyphicon glyphicon-info-sign"></i>&nbsp;row info</button>
+            </div>
+            
+            <div class="container-fluid">
+                <table id="table"
+                       data-unique-id="Code"
+                       data-sort-name="Code"
+                       data-sort-order="asc"
+                       data-classes="table table-condensed table-hover table-striped"
+                       data-toggle="table"
+                       data-side-pagination="server"
+                       data-url="Load"
+                       data-query-params="extraServerParams"
+                       data-pagination="true"
+                       data-show-refresh="true"
+                       data-search="true"
+                       data-toolbar="#toolbar"
+                       data-page-size="20"
+                       data-page-list="[5,10,20,50,100,All]">
+                    <thead>
+                        <tr>
+                            <th><a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]">Nazva productu</a></th>
+                            <th><a asp-action="Index" asp-route-sortOrder="@ViewData["WeightSortParm"]">Kilkist ramok(korobok)</a></th>
+                            <th>Номер вулика</th>
+                            <th><a asp-action="Index" asp-route-sortOrder="@ViewData["DateSortParm"]">Data zburany tovary</a></th>
+                            <th>Work with files</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Weight)
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.zDataZbory)
+                                </td>
+                                <td>
+                                    <a asp-action="Edit" asp-route-id="@item.Id">Redaguvaty</a> |
+                                    <a asp-action="Delete" asp-route-id="@item.Id">Vudalyty</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+@section scripts {
+
+<environment names="Development">
+    <link rel="stylesheet" href="~/css/bootstrap-table.css">
+    <script src="~/lib/bootstrap-table/bootstrap-table.js"></script>
+</environment>
+<environment names="Staging,Production">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/bootstrap-table.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/bootstrap-table.min.js"></script>
+</environment>
+
+    <script type="text/javascript">
+
+    function flagFormatter(value, row) {
+      return '<img src="/images/flags/' + value.toLowerCase() + '.png" >';
+    }
+    function extraServerParams(params) {
+      params.ExtraParam = 2;
+      return params;
+    }
+
+    function highLightRow($tr) {
+      $tr.addClass('highlight').siblings().removeClass('highlight');
+    }
+
+    function getId($element) {
+      var result = $($element).closest('tr').data('uniqueid');
+      return result;
+    }
+
+    $(document).ready(function () {
+      var $table = $('#table').dataTable();
+
+      $('#btninfo').click(function () {
+        $tr = $table.find('tr.highlight');
+        var id = getId($tr);
+
+        var msg = (id === undefined) ? 'No row selected' : 'Country code : ' + id;
+        alert(msg);
+      });
+
+      // register row-click event
+      $table.on('click-row.bs.table', function ($element, row, $tr) {
+        highLightRow($tr);
+      });
+
+    });
+    </script>
+}

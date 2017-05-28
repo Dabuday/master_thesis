@@ -1,0 +1,7 @@
+D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WMB.Data\bin\Debug\netcoreapp1.1\WMB.Data.deps.json
+D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WMB.Data\bin\Debug\netcoreapp1.1\WMB.Data.dll
+D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WMB.Data\obj\Debug\netcoreapp1.1\WMB.Data.AssemblyInfo.cs
+D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WMB.Data\bin\Debug\netcoreapp1.1\WMB.Data.pdb
+D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WMB.Data\obj\Debug\netcoreapp1.1\WMB.Data.dll
+D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WMB.Data\obj\Debug\netcoreapp1.1\WMB.Data.pdb
+D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WMB.Data\obj\Debug\netcoreapp1.1\WMB.Data.csprojResolveAssemblyReference.cache

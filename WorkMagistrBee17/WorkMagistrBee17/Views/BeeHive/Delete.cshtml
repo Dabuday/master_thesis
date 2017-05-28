@@ -1,0 +1,179 @@
+@model WMB.Data.DataContext.Beehive
+
+@{
+    ViewBag.Title = "delete";
+}
+
+<link href="~/css/jquery.datetimepicker.css" rel="stylesheet" />
+<script src="~/lib/jquery/dist/jquery.js" type="text/javascript"></script>
+<script src="~/lib/datetimepicker/jquery.datetimepicker.js" type="text/javascript"></script>
+
+<html>
+<head>
+    <title>delete</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header_slide">
+            <div class="header_bottom_left">
+                <div class="categories">
+                    <ul>
+                        <h3>Категорії</h3>
+                        <li><a asp-action="Index" asp-controller="BeeHive">Vyluck</a></li>
+                        <li><a asp-action="Index" asp-controller="Statistics">Statistick</a></li>
+                        <li><a asp-action="Index" asp-controller="Collection">Zbir producty</a></li>
+                        <li><a asp-action="Index" asp-controller="Calendar">Calendar</a></li>
+                        <li><a href="#">Laptop</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Software</a></li>
+                        <li><a href="#">Sports &amp; Fitness</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header_bottom_right">
+                <div class="content_top">
+                    <div class="back-links">
+                        <p><a asp-action="Index" asp-controller="MyApiary">Моя пасіка</a>  >>>> <a asp-action="Index" asp-controller="BeeHive">Вулики</a>  >>>> <a asp-action="Edit" asp-controller="BeeHive">@Model.NameHive</a> >>>> <a>Видалення</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <h3>Are you sure you want to delete this?</h3>
+                <div>
+                    <h4>Beehive</h4>
+                    <hr />
+                    <dl class="dl-horizontal">
+                        <input type="hidden" asp-for="Id" />
+                        <dt>
+                            @Html.DisplayNameFor(model => model.NameHive)
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.NameHive)
+                        </dd>
+                        <dt>
+                            @Html.DisplayNameFor(model => model.descriptionHive)
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.descriptionHive)
+                        </dd>
+                        <dt>
+                            @Html.DisplayNameFor(model => model.NumberFrames)
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.NumberFrames)
+                        </dd>
+                        <dt>
+                            @Html.DisplayNameFor(model => model.zData)
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.zData)
+                        </dd>
+                        <dt>
+                            @Html.DisplayNameFor(model => model.descriptionDate)
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.descriptionDate)
+                        </dd>
+                        <dt>
+                            @Html.DisplayNameFor(model => model.zData1)
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.zData1)
+                        </dd>
+                        <dt>
+                            @Html.DisplayNameFor(model => model.zData2)
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.zData2)
+                        </dd>
+                        <dt>
+                            @Html.DisplayNameFor(model => model.PriceHive)
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.PriceHive)
+                        </dd>
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Coefficientefficiency)
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.Coefficientefficiency)
+                        </dd>
+                        <dt>
+                            @Html.DisplayNameFor(model => model.PriceCostsHive)
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.PriceCostsHive)
+                        </dd>
+                        <dt>
+                            @Html.DisplayNameFor(model => model.ImagePath)
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.ImagePath)
+                        </dd>
+                        <dt>
+                            @Html.DisplayNameFor(model => model.ProductTypeСollection)
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.ProductTypeСollection.Id)
+                        </dd>
+                        <dt>
+                            @Html.DisplayNameFor(model => model.TypeBees)
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.TypeBees.Id)
+                        </dd>
+                        <dt>
+                            @Html.DisplayNameFor(model => model.TypeBeesHealth)
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.TypeBeesHealth.Id)
+                        </dd>
+                        <dt>
+                            @Html.DisplayNameFor(model => model.TypeHive)
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.TypeHive.Id)
+                        </dd>
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Uterus)
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.Uterus.Id)
+                        </dd>
+                    </dl>
+
+                    <form asp-action="Delete">
+                        <div class="form-actions no-color">
+                            <input type="submit" value="Delete" class="btn btn-default" /> |
+                            <a asp-action="Index">Back to List</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script type="text/javascript">
+
+    var todaysdate = new Date();
+    jQuery('#zData').datetimepicker({
+        dayOfWeekStart: 1,
+        lang: 'en'
+    });
+
+    var todaysdate = new Date();
+    jQuery('#zData1').datetimepicker({
+        dayOfWeekStart: 1,
+        lang: 'en'
+    });
+    var todaysdate = new Date();
+    jQuery('#zData2').datetimepicker({
+        dayOfWeekStart: 1,
+        lang: 'en'
+    });
+    //jQuery('#zData1').datetimepicker({ value: todaysdate.getDate().toString(), step: 10 });
+
+</script>
+

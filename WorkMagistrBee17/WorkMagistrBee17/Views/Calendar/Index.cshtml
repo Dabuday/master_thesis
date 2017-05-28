@@ -1,0 +1,42 @@
+@{
+    ViewBag.Title = "Calendar";
+}
+
+<html>
+<head>
+    <title>Календар</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header_slide">
+            <div class="header_bottom_left">
+                @*@await Html.PartialAsync("_Categories", "MyApiary")*@
+                <div class="categories">
+                    <ul>
+                        <h3>Категорії</h3>
+                        <li><a asp-action="Index" asp-controller="BeeHive">Vyluck</a></li>
+                        <li><a asp-action="Index" asp-controller="Statistics">Statistick</a></li>
+                        <li><a asp-action="Index" asp-controller="Collection">Zbir producty</a></li>
+                        <li><a asp-action="Index" asp-controller="Calendar">Calendar</a></li>
+                        <li><a href="#">...............</a></li>
+                        <li><a href="#">...............</a></li>
+                        <li><a href="#">...............</a></li>
+                        <li><a href="#">......&amp; .....</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header_bottom_right">
+                <div class="content_top">
+                    <div class="back-links">
+                        <p><a asp-action="Index" asp-controller="MyApiary">Моя пасіка</a>  >>>> <a asp-action="Index" asp-controller="Calendar">Календар</a></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+

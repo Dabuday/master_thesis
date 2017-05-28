@@ -1,0 +1,111 @@
+@{
+    ViewBag.Title = "Statistick";
+}
+
+<head>
+    <title>Статистика пасіки</title>
+</head>
+
+<div class="header">
+    <div class="header_slide">
+        <div class="header_bottom_left">
+            @*@await Html.PartialAsync("_Categories", "MyApiary")*@
+            <div class="categories">
+                <h3>Категорії</h3>
+                <ul>
+                    <li><a asp-action="Index" asp-controller="BeeHive">Vyluck</a></li>
+                    <li><a asp-action="Index" asp-controller="Statistics">Statistick</a></li>
+                    <li><a asp-action="Index" asp-controller="Collection">Zbir producty</a></li>
+                    <li><a asp-action="Index" asp-controller="Calendar">Calendar</a></li>
+                    <li><a href="#">Laptop</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Software</a></li>
+                    <li><a href="#">Sports &amp; Fitness</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_bottom_right">
+            <div class="content_top">
+                <div class="back-links">
+                    <p><a asp-action="Index" asp-controller="MyApiary">Моя пасіка</a>  >>>> <a asp-action="Index" asp-controller="Statistics">Статистика</a></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Area Chart</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                                    <i class="fa fa-minus"></i>
+                                </button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="chart">
+                                <canvas id="areaChart" style="height:250px"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box box-danger">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Donut Chart</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                                    <i class="fa fa-minus"></i>
+                                </button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <canvas id="pieChart" style="height:250px"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="box box-info">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Line Chart</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                                    <i class="fa fa-minus"></i>
+                                </button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="chart">
+                                <canvas id="lineChart" style="height:250px"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box box-success">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Bar Chart</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                                    <i class="fa fa-minus"></i>
+                                </button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="chart">
+                                <canvas id="barChart" style="height:230px"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="control-sidebar-bg"></div>
+
+            @section Scripts {
+             <script src="~/chartjs/js/chart.js"></script>
+             <script src="~/chartjs/ChartsJs.js"></script>
+            }
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>

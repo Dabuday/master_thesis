@@ -1,0 +1,70 @@
+@model IEnumerable<WMB.Data.DataContext.Beehive>
+@{
+    ViewBag.Title = "Всі вулики";
+}
+
+<html>
+<head>
+    <title>Вулики</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header_slide">
+            <div class="header_bottom_left">
+                @*@await Html.PartialAsync("_Categories", "MyApiary")*@
+                <div class="categories">
+                    <ul>
+                        <h3>Категорії</h3>
+                        <li><a asp-action="Index" asp-controller="BeeHive">Vyluck</a></li>
+                        <li><a asp-action="Index" asp-controller="Statistics">Statistick</a></li>
+                        <li><a asp-action="Index" asp-controller="Collection">Zbir producty</a></li>
+                        <li><a asp-action="Index" asp-controller="Calendar">Calendar</a></li>
+                        <li><a href="#">...............</a></li>
+                        <li><a href="#">...............</a></li>
+                        <li><a href="#">...............</a></li>
+                        <li><a href="#">......&amp; .....</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header_bottom_right">
+                <div class="content_top">
+                    <div class="back-links">
+                        <p><a asp-action="Index" asp-controller="MyApiary">Моя пасіка</a>  >>>> <a asp-action="Index" asp-controller="BeeHive">Вулики</a></p>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <a asp-action="Create">Add hive <img src="~/images/norm/Add.png" /></a>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <div class="section group">
+                    <div class="faqs">
+                        <div id="posts">
+                            @foreach (var item in Model)
+                            {
+                                <div class="grid_1_of_4 images_1_of_4">
+                                    <div class="image"><a href=""><img src="@item.ImagePath" width="200" height="200" /> </a></div>
+                                    <div class="tab bar">
+                                        <h2 class="post-title">Name: @item.NameHive</h2>
+                                    </div>
+                                    <div class="price-details">
+                                        <div class="price-number">
+                                        </div>
+                                        <div class="add-cart">
+                                            <a asp-action="Edit" asp-controller="BeeHive" asp-route-id="@item.Id"><img src="~/images/norm/Edit.png" /></a>|
+                                            <a asp-action="Delete" asp-controller="BeeHive" asp-route-id="@item.Id"><img src="~/images/norm/Delete.png" /></a>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+

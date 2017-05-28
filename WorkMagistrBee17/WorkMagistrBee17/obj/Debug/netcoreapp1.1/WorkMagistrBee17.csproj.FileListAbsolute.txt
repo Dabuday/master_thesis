@@ -1,0 +1,52 @@
+c:\users\maksym\documents\visual studio 2017\Projects\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.deps.json
+c:\users\maksym\documents\visual studio 2017\Projects\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.runtimeconfig.json
+c:\users\maksym\documents\visual studio 2017\Projects\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.runtimeconfig.dev.json
+c:\users\maksym\documents\visual studio 2017\Projects\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.dll
+c:\users\maksym\documents\visual studio 2017\Projects\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.pdb
+c:\users\maksym\documents\visual studio 2017\Projects\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.csprojResolveAssemblyReference.cache
+c:\users\maksym\documents\visual studio 2017\Projects\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+c:\users\maksym\documents\visual studio 2017\Projects\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.AssemblyInfo.cs
+c:\users\maksym\documents\visual studio 2017\Projects\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.dll
+c:\users\maksym\documents\visual studio 2017\Projects\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.pdb
+D:\Універ\6 курс\Магістерська\Новая папка\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.deps.json
+D:\Універ\6 курс\Магістерська\Новая папка\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.runtimeconfig.json
+D:\Універ\6 курс\Магістерська\Новая папка\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.runtimeconfig.dev.json
+D:\Універ\6 курс\Магістерська\Новая папка\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.dll
+D:\Універ\6 курс\Магістерська\Новая папка\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.pdb
+D:\Універ\6 курс\Магістерська\Новая папка\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.csprojResolveAssemblyReference.cache
+D:\Універ\6 курс\Магістерська\Новая папка\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+D:\Універ\6 курс\Магістерська\Новая папка\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.AssemblyInfo.cs
+D:\Універ\6 курс\Магістерська\Новая папка\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.dll
+D:\Універ\6 курс\Магістерська\Новая папка\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.pdb
+D:\Універ\6 курс\Магістерська\Лістінг\Новая папка\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.deps.json
+D:\Універ\6 курс\Магістерська\Лістінг\Новая папка\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.runtimeconfig.json
+D:\Універ\6 курс\Магістерська\Лістінг\Новая папка\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.runtimeconfig.dev.json
+D:\Універ\6 курс\Магістерська\Лістінг\Новая папка\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.dll
+D:\Універ\6 курс\Магістерська\Лістінг\Новая папка\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.pdb
+D:\Універ\6 курс\Магістерська\Лістінг\Новая папка\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.csprojResolveAssemblyReference.cache
+D:\Універ\6 курс\Магістерська\Лістінг\Новая папка\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+D:\Універ\6 курс\Магістерська\Лістінг\Новая папка\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.AssemblyInfo.cs
+D:\Універ\6 курс\Магістерська\Лістінг\Новая папка\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.dll
+D:\Універ\6 курс\Магістерська\Лістінг\Новая папка\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.pdb
+D:\Універ\6 курс\Магістерська\Лістінг\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.deps.json
+D:\Універ\6 курс\Магістерська\Лістінг\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.runtimeconfig.json
+D:\Універ\6 курс\Магістерська\Лістінг\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.runtimeconfig.dev.json
+D:\Універ\6 курс\Магістерська\Лістінг\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.dll
+D:\Універ\6 курс\Магістерська\Лістінг\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.pdb
+D:\Універ\6 курс\Магістерська\Лістінг\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.csprojResolveAssemblyReference.cache
+D:\Універ\6 курс\Магістерська\Лістінг\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+D:\Універ\6 курс\Магістерська\Лістінг\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.AssemblyInfo.cs
+D:\Універ\6 курс\Магістерська\Лістінг\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.dll
+D:\Універ\6 курс\Магістерська\Лістінг\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.pdb
+D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.deps.json
+D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.runtimeconfig.json
+D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.runtimeconfig.dev.json
+D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.csprojResolveAssemblyReference.cache
+D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.AssemblyInfo.cs
+D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.dll
+D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.pdb
+D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WMB.Data.dll
+D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WMB.Data.pdb
+D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.dll
+D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.pdb
