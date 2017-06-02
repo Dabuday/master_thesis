@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using WMB.Data.DataContext;
+using WMB.Data.DataContext.DataAnalyst;
 
 namespace WMB.Data
 {
@@ -14,6 +15,9 @@ namespace WMB.Data
         public DbSet<ProductTypeCollection> ProductTypeCollections { get; set; }
         public DbSet<TypeBees> TypeBeess { get; set; }
         public DbSet<TypeHive> TypeHives { get; set; }
+
+        public DbSet<EffectivenessHives> EffectivenessHivess { get; set; }
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {

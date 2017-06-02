@@ -50,3 +50,17 @@ D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WorkMagistr
 D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WMB.Data.pdb
 D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.dll
 D:\Універ\6 курс\Магістерська\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.pdb
+D:\Універ\6 курс\Магістерська\Лістінг\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WMB.Data.dll
+D:\Універ\6 курс\Магістерська\Лістінг\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WMB.Data.pdb
+C:\GitHub\master_thesis\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.deps.json
+C:\GitHub\master_thesis\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.runtimeconfig.json
+C:\GitHub\master_thesis\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.runtimeconfig.dev.json
+C:\GitHub\master_thesis\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.csprojResolveAssemblyReference.cache
+C:\GitHub\master_thesis\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+C:\GitHub\master_thesis\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.AssemblyInfo.cs
+C:\GitHub\master_thesis\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.dll
+C:\GitHub\master_thesis\WorkMagistrBee17\WorkMagistrBee17\obj\Debug\netcoreapp1.1\WorkMagistrBee17.pdb
+C:\GitHub\master_thesis\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.dll
+C:\GitHub\master_thesis\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WorkMagistrBee17.pdb
+C:\GitHub\master_thesis\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WMB.Data.dll
+C:\GitHub\master_thesis\WorkMagistrBee17\WorkMagistrBee17\bin\Debug\netcoreapp1.1\WMB.Data.pdb

@@ -8773,10 +8773,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Універ\\6 курс\\Магістерська\\WorkMagistrBee17\\WMB.Data\\WMB.Data.csproj",
+      "projectUniqueName": "C:\\GitHub\\master_thesis\\WorkMagistrBee17\\WMB.Data\\WMB.Data.csproj",
       "projectName": "WMB.Data",
-      "projectPath": "D:\\Універ\\6 курс\\Магістерська\\WorkMagistrBee17\\WMB.Data\\WMB.Data.csproj",
-      "outputPath": "D:\\Універ\\6 курс\\Магістерська\\WorkMagistrBee17\\WMB.Data\\obj\\",
+      "projectPath": "C:\\GitHub\\master_thesis\\WorkMagistrBee17\\WMB.Data\\WMB.Data.csproj",
+      "outputPath": "C:\\GitHub\\master_thesis\\WorkMagistrBee17\\WMB.Data\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

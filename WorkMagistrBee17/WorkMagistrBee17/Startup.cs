@@ -13,6 +13,8 @@ using WorkMagistrBee17.Models;
 using WorkMagistrBee17.Services;
 using WMB.Data.DataContext;
 using WMB.Data;
+using WMB.Data.IRepositorys;
+using WMB.Data.Repository;
 
 namespace WorkMagistrBee17
 {
@@ -52,6 +54,8 @@ namespace WorkMagistrBee17
             // Add application services.
             services.AddTransient<IEmailSender, AuthMessageSender>();
             services.AddTransient<ISmsSender, AuthMessageSender>();
+
+            services.AddTransient<IRepository, BeehiveRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

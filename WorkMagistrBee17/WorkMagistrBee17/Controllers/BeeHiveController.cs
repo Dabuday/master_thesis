@@ -3,12 +3,17 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WMB.Data.DataContext;
 using WMB.Data;
+using WorkMagistrBee17.Models;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace WorkMagistrBee17.Controllers
 {
     public class BeeHiveController : Controller
     {
         private ApplicationDbContext db;
+        public IEnumerable<TypeHiveListModel> TypeHives { get; set; }
+
         public BeeHiveController(ApplicationDbContext context)
         {
             db = context;
@@ -28,6 +33,10 @@ namespace WorkMagistrBee17.Controllers
         {
             try
             {
+                List<TypeHiveListModel> compModels = TypeHives
+       .Select(c => new TypeHiveListModel { Id = c.Id, Name = c.Name })
+       .ToList();
+
                 db.Beehives.Add(beehive);
                 await db.SaveChangesAsync();
                 return RedirectToAction("Index");
@@ -45,6 +54,11 @@ namespace WorkMagistrBee17.Controllers
             if (id != null)
             {
                 Beehive beehive = await db.Beehives.FirstOrDefaultAsync(p => p.Id == id);
+
+                List<TypeHiveListModel> compModels = TypeHives
+        .Select(c => new TypeHiveListModel { Id = c.Id, Name = c.Name })
+        .ToList();
+
                 if (beehive != null)
                     return View(beehive);
             }
@@ -55,6 +69,10 @@ namespace WorkMagistrBee17.Controllers
         {
             try
             {
+                List<TypeHiveListModel> compModels = TypeHives
+       .Select(c => new TypeHiveListModel { Id = c.Id, Name = c.Name })
+       .ToList();
+
                 db.Beehives.Update(beehive);
                 await db.SaveChangesAsync();
                 return RedirectToAction("Index");
